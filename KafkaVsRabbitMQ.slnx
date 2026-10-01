@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KafkaVsRabbitMQ.App/KafkaVsRabbitMQ.App.csproj" />
+    <Project Path="src/KafkaVsRabbitMQ.Contracts/KafkaVsRabbitMQ.Contracts.csproj" />
+    <Project Path="src/KafkaVsRabbitMQ.Kafka/KafkaVsRabbitMQ.Kafka.csproj" />
+    <Project Path="src/KafkaVsRabbitMQ.RabbitMq/KafkaVsRabbitMQ.RabbitMq.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/KafkaVsRabbitMQ.Tests/KafkaVsRabbitMQ.Tests.csproj" />
+  </Folder>
+</Solution>

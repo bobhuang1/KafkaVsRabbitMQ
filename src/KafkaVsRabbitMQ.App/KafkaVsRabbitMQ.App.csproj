@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\KafkaVsRabbitMQ.Contracts\KafkaVsRabbitMQ.Contracts.csproj" />
+    <ProjectReference Include="..\KafkaVsRabbitMQ.Kafka\KafkaVsRabbitMQ.Kafka.csproj" />
+    <ProjectReference Include="..\KafkaVsRabbitMQ.RabbitMq\KafkaVsRabbitMQ.RabbitMq.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.12" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
